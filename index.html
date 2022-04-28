@@ -6,6 +6,8 @@
     <title>Climate</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favIcon.jpeg" type="image/x-icon">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 <body>
     <!-- Header section -->
@@ -20,25 +22,31 @@
            </ul>
        </div>
        <div class="nav__buttons">
-           <button class="btn-1">Login</button>
-           <button class="btn-2">Sign-up</button>
+           <button class="btn-1" data-aos="fade-down">Login</button>
+           <button class="btn-2" data-aos="fade-down">Sign-up</button>
        </div>
    </header>
 
    <!-- Background-section -->
    <section class="background">
        <div class="background__text">
-           <h3 class="heading__text-1">"WE stand for climate change action"</h3>
-           <p class="heading__text-2">We will stand to protect our</p>
-           <p class="heading__text-3">Planet.</p>
+           <h3 class="heading__text-1" data-aos="fade-right">"WE stand for climate change action"</h3>
+           <p class="heading__text-2"  data-aos="fade-right">We will stand to protect our</p>
+           <p class="heading__text-3"  data-aos="fade-right">Planet.</p>
 
-           <p class="heading__text-3">"WE stand to fight global emission"</p>
-           <p class="heading__text-3">We will stand to protect our</p>
-           <p class="heading__text-3">lifes from pollutant.</p>
-           <button class="btn-3">Read More =></button>
+           <p class="heading__text-3"  data-aos="fade-right">"WE stand to fight global emission"</p>
+           <p class="heading__text-3"  data-aos="fade-right">We will stand to protect our</p>
+           <p class="heading__text-3"  data-aos="fade-right">lifes from pollutant.</p>
+           <button class="btn-3"   data-aos="fade-top">Read More =></button>
        </div>
-      <img src="images/climate-protest.jpeg" class="climate-change__protest"/>
+      <img src="images/climate-protest.jpeg" class="climate-change__protest"   data-aos="fade-left"/>
       
    </section>
 </body>
+
+  <script>
+    AOS.init({
+        duration:1200,
+    });
+  </script>
 </html>
