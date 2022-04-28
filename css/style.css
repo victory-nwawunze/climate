@@ -39,7 +39,7 @@ li{
    padding: 10 21px;
     background-color: #072743;
     color: #fff;
-    border-radius: 30%;
+    border-radius: 5%;
     border: none;
     cursor: pointer;
     font-size: 15px;
@@ -48,7 +48,7 @@ li{
    padding: 10 21px;
     background-color: #F7DC6F;
     color: #F4F6F7;
-    border-radius: 30%;
+    border-radius: 5%;
     border: none;
     cursor: pointer;
     font-size: 12px;
@@ -85,7 +85,7 @@ li{
 .climate-change__protest{
     height: 80%;
     width: 50%;
-    border-radius: 5%;
+    border-radius: 2%;
     border: none;
     box-shadow:
        inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -110,18 +110,18 @@ li{
     font-size: 30;
     color: white;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     line-height: 1em;
 }
 .btn-3{
      padding: 10 21px;
     background-color: #F7DC6F;
-    color: #F4F6F7;
-    border-radius: 30%;
+    color: #17202A;
+    border-radius: 5%;
     border: none;
     cursor: pointer;
-    font-size: 12px;
-    padding-top: 10px;
+    font-size: 12;
+    font-weight: bold;
 }
 .background__text{
     margin-top: 30px;
