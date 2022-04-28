@@ -6,7 +6,7 @@
 .header__logo{
     width: 50px;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 .navbar{
     display: flex;
@@ -33,19 +33,27 @@ li{
     border-radius: 30%;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 15px;
 }
 .btn-2{
    padding: 10 41px;
-    background-color: #76b5c5;
-    color: #fff;
+    background-color: #F7DC6F;
+    color: #F4F6F7;
     border-radius: 30%;
     border: none;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 15px;
 }
 .btn-1:hover{
-    background-color: white;
+    background-color: #2E4053;
+    color: #F7DC6F;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+.btn-2:hover{
+      background-color: white;
     color: black;
     cursor: pointer;
     font-size: 12px;
